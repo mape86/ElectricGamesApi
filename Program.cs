@@ -1,4 +1,25 @@
+using ElectricGamesApi.Contexts;
+using Microsoft.EntityFrameworkCore;
+
+
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddCors(
+    options =>
+    {
+        options.AddPolicy("AllowAll",
+        builder => builder
+        .AllowAnyHeader()
+        .AllowAnyMethod()
+        .AllowAnyOrigin()
+        );
+    }
+);
+
+builder.Services.AddDbContext<ElectricGamesContext>(
+    options => options.UseSqlite("Data Source=ElectricGamesDb.db")
+    );
 
 // Add services to the container.
 
@@ -8,6 +29,10 @@ builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
+
+app.UseCors("AllowAll");
+
+app.UseStaticFiles();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

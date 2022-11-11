@@ -1,11 +1,37 @@
 {
   "Version": 1,
-  "Hash": "T+Uq1bOJCFo2aMo9vQKJcNADvzHxNrHI36i4MI1XVMU=",
+  "Hash": "YJp1AmlfB+s5nl6307vQ+pEDjJ7wpk/fCpknxZOiqR8=",
   "Source": "ElectricGamesApi",
   "BasePath": "_content/ElectricGamesApi",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "ElectricGamesApi/wwwroot",
+      "Source": "ElectricGamesApi",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
+      "BasePath": "_content/ElectricGamesApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/index.html",
+      "SourceId": "ElectricGamesApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
+      "BasePath": "_content/ElectricGamesApi",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    }
+  ]
 }

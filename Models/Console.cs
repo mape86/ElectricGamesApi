@@ -1,9 +1,11 @@
 using ElectricGamesApi.Interfaces;
+using System.ComponentModel.DataAnnotations;
 
 namespace ElectricGamesApi.Models;
 
 public class Console : IConsole
 {
+    [Key]
     public int Id { get; set; }
     public string Brand { get; set; } = "";
     public string Model { get; set; } = "";
