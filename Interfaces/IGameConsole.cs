@@ -1,6 +1,6 @@
 namespace ElectricGamesApi.Interfaces;
 
-interface IConsole
+interface IGameConsole
 {
     int Id { get; set; }
     string Brand { get; set; }
