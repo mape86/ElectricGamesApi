@@ -24,6 +24,4 @@ public class CharacterController : ControllerBase
         return characters;
     }
 
-
-
 }
