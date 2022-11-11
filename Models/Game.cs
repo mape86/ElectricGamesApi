@@ -11,5 +11,9 @@ public class Game : IGame
     public string Platform { get; set; } = "";
     public int ReleaseYear { get; set; }
     public double Price { get; set; }
-    public string Image { get; set; } = "gameAvatar.jpg";
+    public string HeroImage { get; set; } = "gameAvatar.jpg";
+    public string InGameImage1 { get; set; } = "";
+    public string InGameImage2 { get; set; } = "";
+    public string InGameImage3 { get; set; } = "";
+    public string InGameImage4 { get; set; } = "";
 }
