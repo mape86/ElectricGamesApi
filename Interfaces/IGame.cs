@@ -4,6 +4,7 @@ interface IGame
 {
     int Id { get; set; }
     string Title { get; set; }
+    string Description { get; set; }
     string Platform { get; set; }
     int ReleaseYear { get; set; }
     double Price { get; set; }
