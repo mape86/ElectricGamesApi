@@ -7,6 +7,8 @@ interface IGame
     string Description { get; set; }
     string Platform { get; set; }
     int ReleaseYear { get; set; }
+    string Genre { get; set; }
+    string Publisher { get; set; }
     double Price { get; set; }
     string HeroImage { get; set; }
     string InGameImage1 { get; set; }

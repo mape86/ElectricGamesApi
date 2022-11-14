@@ -11,6 +11,8 @@ public class Game : IGame
     public string Description { get; set; } = "";
     public string Platform { get; set; } = "";
     public int ReleaseYear { get; set; }
+    public string Publisher { get; set; } = "Electric Games";
+    public string Genre { get; set; } = "";
     public double Price { get; set; }
     public string HeroImage { get; set; } = "gameAvatar.jpg";
     public string InGameImage1 { get; set; } = "";
