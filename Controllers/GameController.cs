@@ -24,6 +24,50 @@ public class GameController : ControllerBase
         return games;
     }
 
+    [HttpGet]
+    [Route("[action]/{title}")]
+    public async Task<ActionResult<Character>> GetGameByTitle(string title)
+    {
+        Game? game = await context.Game.FindAsync(title);
+        if (game != null)
+        {
+            return Ok(game);
+        }
+        else
+        {
+            return NotFound();
+        }
+    }
+
+    [HttpGet]
+    [Route("[action]/{platform}")]
+    public async Task<ActionResult<Character>> GetGameByPlatform(string platform)
+    {
+        Game? game = await context.Game.FindAsync(platform);
+        if (game != null)
+        {
+            return Ok(game);
+        }
+        else
+        {
+            return NotFound();
+        }
+    }
+
+    [HttpGet]
+    [Route("[action]/{genre}")]
+    public async Task<ActionResult<Character>> GetGameByGenre(string genre)
+    {
+        Game? game = await context.Game.FindAsync(genre);
+        if (game != null)
+        {
+            return Ok(game);
+        }
+        else
+        {
+            return NotFound();
+        }
+    }
 
 }
 
