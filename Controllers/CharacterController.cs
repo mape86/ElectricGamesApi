@@ -42,7 +42,7 @@ public class CharacterController : ControllerBase
     [Route("[action]/{name}")]
     public async Task<ActionResult<Character>> GetCharacterByName(string name)
     {
-        Character? character = await context.Character.FindAsync(name);
+        Character? character = await context.Character.FindAsync(character => character.name == name);
         if (character != null)
         {
             return Ok(character);
