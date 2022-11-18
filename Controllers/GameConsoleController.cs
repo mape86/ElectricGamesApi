@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore;
 namespace ElectricGamesApi.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("[controller]")]
 
 public class GameConsoleController : ControllerBase
 {
