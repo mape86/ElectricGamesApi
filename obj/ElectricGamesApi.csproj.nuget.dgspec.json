@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/ElectricGamesApi.csproj": {}
+    "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/ElectricGamesApi.csproj": {}
   },
   "projects": {
-    "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/ElectricGamesApi.csproj": {
+    "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/ElectricGamesApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/ElectricGamesApi.csproj",
+        "projectUniqueName": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/ElectricGamesApi.csproj",
         "projectName": "ElectricGamesApi",
-        "projectPath": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/ElectricGamesApi.csproj",
-        "packagesPath": "/Users/sondre/.nuget/packages/",
-        "outputPath": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/obj/",
+        "projectPath": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/ElectricGamesApi.csproj",
+        "packagesPath": "/Users/mariuspettersen/.nuget/packages/",
+        "outputPath": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/sondre/.nuget/NuGet/NuGet.Config"
+          "/Users/mariuspettersen/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
