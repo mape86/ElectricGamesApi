@@ -39,13 +39,32 @@ public class CharacterController : ControllerBase
     }
 
     [HttpGet]
-    [Route("[action]/{name}")]
-    public async Task<ActionResult<Character>> GetCharacterByName(string name)
+    [Route("[action]/{game}")]
+    public async Task<ActionResult<List<Character>>> GetCharacterByGame(string game)
     {
-        Character? character = await context.Character.FindAsync(character => character.name == name);
-        if (character != null)
+
+        List<Character> characters = await context.Character.Where(character => character.Game == game).ToListAsync();
+
+        if (characters != null)
         {
-            return Ok(character);
+            return Ok(characters);
+        }
+        else
+        {
+            return NotFound();
+        }
+    }
+
+    [HttpGet]
+    [Route("[action]/{gender}")]
+    public async Task<ActionResult<List<Character>>> GetCharacterByGender(string gender)
+    {
+
+        List<Character> characters = await context.Character.Where(character => character.Gender == gender).ToListAsync();
+
+        if (characters != null)
+        {
+            return Ok(characters);
         }
         else
         {
