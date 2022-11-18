@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QadGtmSE2p9EikGy0QdnyrKdu+JT+iMsuYf4jNgEr8E=",
+  "Hash": "ypxxUMJoniwor1HeEb0yW/sP0BIO+5IXhTz/IiS1Z4s=",
   "Source": "ElectricGamesApi",
   "BasePath": "_content/ElectricGamesApi",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "ElectricGamesApi/wwwroot",
       "Source": "ElectricGamesApi",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/.DS_Store",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/.DS_Store",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/.DS_Store",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot/images/.DS_Store"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/.DS_Store",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/.DS_Store",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/.DS_Store",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/.DS_Store"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/abby.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/abby.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/abby.jpg",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/abby.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/amiciaderune.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/amiciaderune.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/amiciaderune.jpg",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/amiciaderune.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/arno.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/arno.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/arno.jpg",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/arno.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/arthurmorgan.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/arthurmorgan.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/arthurmorgan.jpg",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/arthurmorgan.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/brynjolf.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/brynjolf.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/brynjolf.jpg",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/brynjolf.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/ciri.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/ciri.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/ciri.jpg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/ciri.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/crimsonfire.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/crimsonfire.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/crimsonfire.jpg",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/crimsonfire.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/dovakhiin.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/dovakhiin.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/dovakhiin.jpg",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/dovakhiin.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/ellie.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/ellie.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/ellie.jpg",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/ellie.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/francoisserre.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/francoisserre.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/francoisserre.jpg",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/francoisserre.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/geralt.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/geralt.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/geralt.jpg",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/geralt.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/hugoderune.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/hugoderune.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/hugoderune.jpg",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/hugoderune.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/joel.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/joel.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/joel.jpg",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/joel.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/johnmarston.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/johnmarston.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/johnmarston.jpg",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/johnmarston.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/jonahmaiava.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/jonahmaiava.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/jonahmaiava.jpg",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/jonahmaiava.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/karenjones.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/karenjones.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/karenjones.jpg",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/karenjones.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/laracroft.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/laracroft.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/laracroft.jpg",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/laracroft.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/nathandrake.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/nathandrake.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/nathandrake.jpg",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/nathandrake.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/pierrebellec.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/pierrebellec.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/pierrebellec.jpg",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/pierrebellec.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/samdrake.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/samdrake.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/samdrake.jpg",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/samdrake.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/victorsullivan.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/victorsullivan.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/victorsullivan.jpg",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/victorsullivan.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/yennefer.jpg",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/characters/yennefer.jpg",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "images/characters/yennefer.jpg",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot/images/characters/yennefer.jpg"
     },
     {
-      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/index.html",
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/index.html",
       "SourceId": "ElectricGamesApi",
       "SourceType": "Discovered",
-      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
       "BasePath": "_content/ElectricGamesApi",
       "RelativePath": "index.html",
       "AssetKind": "All",
