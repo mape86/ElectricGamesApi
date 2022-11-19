@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0; 
+    padding: 0; 
+    background-color: #E2E2E2;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #181d21; 
+    height: 5rem; 
+    width: 100vw;
+    position: fixed;
+    top: 0;  
+}
+
+.nav-item{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif; 
+    padding: 1rem 2rem 0 2rem;
+}
+
+.nav-item:hover{
+    color: grey;
+}
+
+.nav-item.active {
+    border-bottom: 3px solid white; 
+}
+
+.header-img-section{
+    background-image: url(/wwwroot/images/apiDocPage/header.jpg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+}
+
+.header{
+    padding-bottom: 1rem;
+}
+
+.emphesized{
+    font-weight: bold;
+}
+
+.homepage-description {
+    padding-bottom: 4rem;
+}
+
+.json-img{
+    width: 300px;
+    border-radius: 10px;
+}
+
+.endpoint-description{
+    padding-top: 1rem;
+}
+
+.imageupload-description{
+    padding-bottom: 1rem;
+}
+
+.footer {
+    background-color: #181d21;
+    color: white;
+    height:100%;
+    width: 100%;
+    padding: 5%;
+  }
+  
+  .language-section {
+    display: grid;
+    justify-content: center;
+    padding-bottom: 1rem;
+  }
+  
+  .rights-section {
+    text-align: center;
+  }
+  
+  .rights-section p {
+    font-size: 0.7rem;
+    color: #707070;
+  }
+  
+  .rights-section h4 {
+    font-size: 3rem;
+  }
+  
+  .footer-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
+  .link-styling {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .link-styling:hover {
+    text-decoration: none;
+    color: grey;
+  }
+  
+  .vertical-line {
+    height: 50px;
+    width: 1px;
+    background-color: #707070;
+  }

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Electric Games API | Documentation</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css"
+      integrity="sha512-CpIKUSyh9QX2+zSdfGP+eWLx23C8Dj9/XmHjZY2uDtfkdLGo0uY12jgcnkX9vXOgYajEKb/jiw67EYm+kBf+6g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <nav class="nav">
+        <a class="nav-item" href="index.html">Home</a>
+        <a class="nav-item active" href="documentation.html">Documentation</a>
+        <a class="nav-item" href="about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="header-img-section"></section>
+      <section class="container info-section">
+        <h3 class="header">Documentation</h3>
+        <h4>Introduction</h4>
+        <p><span class="emphesized">Base url: https://localhost:7xxx</span></p>
+        <p class="endpoint-description">
+          This API contains possibilities for
+          <span class="emphesized">GET</span>,
+          <span class="emphesized">POST</span>,
+          <span class="emphesized">PUT</span> and
+          <span class="emphesized">DELETE</span> requests and go over https.
+          GET-responses will return data in json format.
+        </p>
+        <h4 class="header">Available endpoints (get all):</h4>
+        <ul>
+          <li>
+            <span class="emphesized">Game:</span>https://localhost:7xxx/game
+          </li>
+          <li>
+            <span class="emphesized">GameConsole:</span
+            >https://localhost:7xxx/gameconsole
+          </li>
+          <li>
+            <span class="emphesized">Character:</span>
+            https://localhost:7xxx/character
+          </li>
+          <li>
+            <span class="emphesized">ImageUpload:</span>
+            https://localhost:7xxx/imageupload
+          </li>
+        </ul>
+        <h4 class="header">Methods</h4>
+        <h5>Game</h5>
+        <img
+          class="json-img"
+          src="images/apiDocPage/game-object.png"
+          alt="game JSON-object"
+        />
+        <p class="endpoint-description">
+          The Game endpoint contains methods for getting by platform and genre
+        </p>
+        <ul>
+          <li><span class="emphesized">/getGameByPlatform/{platform}</span></li>
+          <li><span class="emphesized">/getGameByGenre/{genre}</span></li>
+        </ul>
+        <h5>GameConsole</h5>
+        <img
+          class="json-img"
+          src="images/apiDocPage/gameconsole-object.png"
+          alt="game console JSON-object"
+        />
+        <p class="endpoint-description">
+          Game Console only contains the get all method mentioned above.
+        </p>
+        <h5>Character</h5>
+        <img
+          class="json-img"
+          src="images/apiDocPage/character-object.png"
+          alt="character JSON-object"
+        />
+        <p class="endpoint-description">
+          The Character endpoint contains methods for getting a character by ID,
+          game and gender. It also contains PUT, POST and DELETE methods.
+        </p>
+        <ul>
+          <li><span class="emphesized">/{id}</span></li>
+          <li><span class="emphesized">/getGameByPlatform/{platform}</span></li>
+          <li><span class="emphesized">/getGameByGenre/{genre}</span></li>
+        </ul>
+        <h5>Image Upload</h5>
+        <p class="imageupload-description">
+          The API also contains an ImageUpload endpoint used to upload images to
+          the Electric Games website.
+        </p>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <section class="language-section">
+        <select class="form-select form-select-sm">
+          <option value="english">English(US)</option>
+          <option value="norwegian">Norsk</option>
+        </select>
+      </section>
+      <section class="rights-section">
+        <h4>Electric Games</h4>
+        <p>©2022 ELECTRIC GAMES, INC. ALL RIGHTS RESERVED.</p>
+      </section>
+      <nav class="footer-nav">
+        <a href="#" class="link-styling link-border">Privacy</a>
+        <div class="vertical-line"></div>
+        <a href="#" class="link-styling link-border">Legal</a>
+        <div class="vertical-line"></div>
+        <a href="#" class="link-styling link-border">Terms</a>
+        <div class="vertical-line"></div>
+        <a href="#" class="link-styling link-border">Cookie Policy</a>
+        <div class="vertical-line"></div>
+        <a href="#" class="link-styling link-border">Cookie Settings</a>
+      </nav>
+    </footer>
+  </body>
+</html>
