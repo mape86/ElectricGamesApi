@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "scJHQhYhgTjOLuUrAArGFvH5KuTpnTF0M+ij7h1XzOQ=",
+  "Hash": "YUgsKBu+k9kim6RXGpu96+tQd8BuE/Ws3vu9io2syx0=",
   "Source": "ElectricGamesApi",
   "BasePath": "_content/ElectricGamesApi",
   "Mode": "Default",
@@ -763,6 +763,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/games/unchartedhero.jpg"
+    },
+    {
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/images/uploadedImages/baby-hatt.jpg",
+      "SourceId": "ElectricGamesApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
+      "BasePath": "_content/ElectricGamesApi",
+      "RelativePath": "images/uploadedImages/baby-hatt.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/uploadedImages/baby-hatt.jpg"
     },
     {
       "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/index.html",

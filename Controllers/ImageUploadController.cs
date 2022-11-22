@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace ElectricGamesApi.Controllers;
 
 [ApiController]
-[Route("api/[controller]")]
+[Route("[controller]")]
 
 public class ImageUploadController : ControllerBase
 {
@@ -17,7 +17,7 @@ public class ImageUploadController : ControllerBase
     public IActionResult SaveImage(IFormFile file)
     {
         string wwwrootPath = hosting.WebRootPath;
-        string absolutePath = Path.Combine($"{wwwrootPath}/images/uploadedImages/{file.FileName}");
+        string absolutePath = Path.Combine($"{wwwrootPath}/images/characters/{file.FileName}");
 
         using (var fileStream = new FileStream(absolutePath, FileMode.Create))
         {
