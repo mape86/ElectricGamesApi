@@ -1,5 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
-namespace AnimalsApi.Controllers;
+namespace ElectricGamesApi.Controllers;
 
 [ApiController]
 [Route("api/[controller]")]

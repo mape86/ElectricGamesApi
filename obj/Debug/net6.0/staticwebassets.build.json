@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "cRVpupy7QvrEGAyH3mJizXXzRk//oAMRfD3B3wi1EtA=",
+  "Hash": "scJHQhYhgTjOLuUrAArGFvH5KuTpnTF0M+ij7h1XzOQ=",
   "Source": "ElectricGamesApi",
   "BasePath": "_content/ElectricGamesApi",
   "Mode": "Default",
@@ -16,6 +16,23 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/about.html",
+      "SourceId": "ElectricGamesApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/",
+      "BasePath": "_content/ElectricGamesApi",
+      "RelativePath": "about.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/about.html"
+    },
     {
       "Identity": "/Users/sondre/Desktop/Frontend/Webutvikling/Eksamen/ElectricGamesApi/wwwroot/css/style.css",
       "SourceId": "ElectricGamesApi",
