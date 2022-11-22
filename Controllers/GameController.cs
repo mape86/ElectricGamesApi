@@ -24,6 +24,20 @@ public class GameController : ControllerBase
         return games;
     }
 
+    [HttpGet("{id}")]
+    public async Task<ActionResult<Character>> Get(int id)
+    {
+        Game? game = await context.Game.FindAsync(id);
+        if (game != null)
+        {
+            return Ok(game);
+        }
+        else
+        {
+            return NotFound();
+        }
+    }
+
     [HttpGet]
     [Route("[action]/{platform}")]
     public async Task<ActionResult<List<Game>>> GetGameByPlatform(string platform)
