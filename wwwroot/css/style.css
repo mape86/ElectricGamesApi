@@ -53,6 +53,10 @@ body{
     padding-bottom: 4rem;
 }
 
+.about-description {
+  padding-bottom: 3rem;
+}
+
 .json-img{
     width: 300px;
     border-radius: 10px;
