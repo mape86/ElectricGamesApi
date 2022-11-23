@@ -80,7 +80,7 @@ public class CharacterController : ControllerBase
 
             context.Character.Add(newCharacter);
             await context.SaveChangesAsync();
-            return CreatedAtAction("Get", new { id = newCharacter.Id }, newCharacter);
+            return CreatedAtAction("Post", new { id = newCharacter.Id }, newCharacter);
         }
         catch
         {
