@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IzEUleJ1YxzTBLIT/yuRem9O3rM2+N4kYHXkaCcjxNE=",
+  "Hash": "IgwBePRBb14DCJuxP34ZFtH4GxBxaiFIlT41Ybseya0=",
   "Source": "ElectricGamesApi",
   "BasePath": "_content/ElectricGamesApi",
   "Mode": "Default",
@@ -508,6 +508,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/characters/samdrake.jpg"
+    },
+    {
+      "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/Soldier.jpg",
+      "SourceId": "ElectricGamesApi",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/",
+      "BasePath": "_content/ElectricGamesApi",
+      "RelativePath": "images/characters/Soldier.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/characters/Soldier.jpg"
     },
     {
       "Identity": "/Users/mariuspettersen/Desktop/EksamenWebutvikling2022/ElectricGamesApi/wwwroot/images/characters/victorsullivan.jpg",
