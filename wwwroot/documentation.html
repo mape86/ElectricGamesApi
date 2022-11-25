@@ -41,18 +41,18 @@
         <h4 class="header">Available endpoints (get all):</h4>
         <ul>
           <li>
-            <span class="emphesized">Game:</span>https://localhost:7xxx/game
+            <span class="emphesized">Game: </span>https://localhost:7xxx/game
           </li>
           <li>
-            <span class="emphesized">GameConsole:</span
+            <span class="emphesized">GameConsole: </span
             >https://localhost:7xxx/gameconsole
           </li>
           <li>
-            <span class="emphesized">Character:</span>
+            <span class="emphesized">Character: </span>
             https://localhost:7xxx/character
           </li>
           <li>
-            <span class="emphesized">ImageUpload:</span>
+            <span class="emphesized">ImageUpload: </span>
             https://localhost:7xxx/imageupload
           </li>
         </ul>
@@ -64,13 +64,9 @@
           alt="game JSON-object"
         />
         <p class="endpoint-description">
-          The Game endpoint contains methods for getting by platform and genre
+          Game only contains the get all method mentioned above.
         </p>
-        <ul>
-          <li><span class="emphesized">/{id}</span></li>
-          <li><span class="emphesized">/getGameByPlatform/{platform}</span></li>
-          <li><span class="emphesized">/getGameByGenre/{genre}</span></li>
-        </ul>
+
         <h5>GameConsole</h5>
         <img
           class="json-img"
@@ -78,8 +74,12 @@
           alt="game console JSON-object"
         />
         <p class="endpoint-description">
-          Game Console only contains the get all method mentioned above.
+          Game Console contains the get all method mentioned above, as well as a
+          /getConsoleByBrand method.
         </p>
+        <ul>
+          <li><span class="emphesized">/getConsoleByBrand/{brand}</span></li>
+        </ul>
         <h5>Character</h5>
         <img
           class="json-img"
@@ -87,17 +87,14 @@
           alt="character JSON-object"
         />
         <p class="endpoint-description">
-          The Character endpoint contains methods for getting a character by ID,
-          game and gender. It also contains PUT, POST and DELETE methods.
+          The Character endpoint contains methods for getting all characters and
+          getting for getting a character by ID. It also contains
+          <span class="emphesized">PUT</span>,
+          <span class="emphesized">POST</span> and
+          <span class="emphesized">DELETE</span> methods.
         </p>
         <ul>
           <li><span class="emphesized">/{id}</span></li>
-          <li>
-            <span class="emphesized">/getCharacterByGame/{game}</span>
-          </li>
-          <li>
-            <span class="emphesized">/getCharacterByGender/{gender}</span>
-          </li>
         </ul>
         <h5>Image Upload</h5>
         <p class="imageupload-description">

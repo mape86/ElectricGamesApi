@@ -23,55 +23,6 @@ public class GameController : ControllerBase
         List<Game> games = await context.Game.ToListAsync();
         return games;
     }
-
-    [HttpGet("{id}")]
-    public async Task<ActionResult<Character>> Get(int id)
-    {
-        Game? game = await context.Game.FindAsync(id);
-        if (game != null)
-        {
-            return Ok(game);
-        }
-        else
-        {
-            return NotFound();
-        }
-    }
-
-    [HttpGet]
-    [Route("[action]/{platform}")]
-    public async Task<ActionResult<List<Game>>> GetGameByPlatform(string platform)
-    {
-
-        List<Game> games = await context.Game.Where(game => game.Platform == platform).ToListAsync();
-
-        if (games != null)
-        {
-            return Ok(games);
-        }
-        else
-        {
-            return NotFound();
-        }
-    }
-
-    [HttpGet]
-    [Route("[action]/{genre}")]
-    public async Task<ActionResult<List<Game>>> GetGameByGenre(string genre)
-    {
-
-        List<Game> games = await context.Game.Where(game => game.Genre == genre).ToListAsync();
-
-        if (games != null)
-        {
-            return Ok(games);
-        }
-        else
-        {
-            return NotFound();
-        }
-    }
-
 }
 
 
