@@ -29,7 +29,7 @@ public class GameConsoleController : ControllerBase
     public async Task<ActionResult<List<Character>>> GetConsoleByBrand(string brand)
     {
 
-        List<GameConsole> consoles = await context.GameConsole.Where(gameConsole => gameConsole.Brand == brand).ToListAsync();
+        List<GameConsole> consoles = await context.GameConsole.Where(gameConsole => gameConsole.Brand.ToLower() == brand.ToLower()).ToListAsync();
 
         if (consoles != null)
         {
